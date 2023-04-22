@@ -1,0 +1,12 @@
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bgimg-1 {
+    background-image: url("https://storage.googleapis.com/go-to-u-site.appspot.com/news/50546.51170067246.jpg");
+    height: 100%;
+  }

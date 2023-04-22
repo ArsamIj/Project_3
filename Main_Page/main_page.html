@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<!-- import style.css -->
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.90;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url("https://storage.googleapis.com/go-to-u-site.appspot.com/news/50546.51170067246.jpg");
+  height: 100%;
+}
+
+
+.caption {
+  position: fixed;
+  left: 0;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.card-green {
+    opacity: 0.90;
+}
+
+.card-green-1 {position: absolute; right: 1700px; border: 3px solid #73AD21; width: 150px; height: 100px; top: 600px;}
+.card-green-2 {position: absolute; right: 1300px; border: 3px solid #212aad ; width: 150px; height: 100px; top: 600px;}
+.card-green-3 {position: absolute; right: 900px; border: 3px solid #bb3131; width: 150px; height: 100px; top: 600px;}
+.card-green-4 {position: absolute; right: 500px; border: 3px solid #e5f508; width: 150px; height: 100px; top: 600px;}
+
+.card-text-1{
+    position: absolute;
+    color: #034d2a;
+    padding: 18px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    right: 1700px;
+    top: 625px;
+}
+
+.card-text-2{
+    position: absolute;
+    color: #034d2a;
+    padding: 18px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    right: 1300px;
+    top: 625px;
+}
+
+.card-text-3{
+    position: absolute;
+    color: #034d2a;
+    padding: 18px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    right: 900px;
+    top: 625px;
+}
+
+.card-text-4{
+    position: absolute;
+    color: #034d2a;
+    padding: 18px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    right: 500px;
+    top: 625px;
+}
+
+</style>
+</head>
+
+<body>
+
+<script type="text/javascript" src="Main-js/main-code.js"></script>
+
+<div class="bgimg-1">
+    <!-- calling the background -->
+    <div  class="caption">
+        <span class="border">PROJECT 3</span>
+        <br>
+        <span class="border">EV. ARE YOU READY FOR IT?</span>
+    </div>
+    <!-- calling the cards -->
+    <div class="card-green">
+        <!-- <div class="card-text">FIRST TAG</div> -->
+        <img class="card-green-1" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="card-green.jpg"><A HREF="Denny's/denny_index.html" class="card-text-1"><strong>Denny's Location</strong></A>
+    </div>
+    <div class="card-green">
+        <!-- <div class="card-text">SECOND TAG</div> -->
+        <img class="card-green-2" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="card-green.jpg"><A HREF="Anna's/ev_comparison.html" class="card-text-2"><strong>Comparing EVs</strong></A>
+    </div>
+    <div class="card-green">
+        <!-- <div class="card-text">THIRD TAG</div> -->
+        <img class="card-green-3" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="card-green.jpg"><A HREF="Anna's/sales_comparison.html" class="card-text-3"><strong>Sales</strong></A>
+    </div>
+    <div class="card-green">
+        <!-- <div class="card-text">FORTH TAG</div> -->
+        <img class="card-green-4" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="card-green.jpg"><A HREF="Gov-Aff/gov-aff.html" class="card-text-4"><strong>Red vs Blue</strong></A>
+    </div>
+</div>
+
+</body>

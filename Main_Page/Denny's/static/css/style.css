@@ -1,0 +1,78 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map {
+    height: 55%;
+    width: 55%;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: auto; */
+    position: fixed;
+    bottom: 250px;
+    right: 800px;
+    /* width: 300px; */
+    border: 3px solid #40bdd3;
+}
+
+/* body,
+html {
+  height: 85%;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  background: rgb(145, 231, 145);
+} */
+
+h1 {text-align: center}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.4;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url("https://imageio.forbes.com/blogs-images/bradtempleton/files/2019/04/whtesla-1200x804.jpg?format=jpg&width=960");
+  height: 100%;
+}
+
+.caption {
+  position: fixed;
+  right: 1000px;
+  top: 75px;
+  /* width: 100%; */
+  /* text-align: center; */
+  color: #000;
+}
+
+.caption span.border {
+  /* background-color: #111; */
+  color: #e21010;
+  font-style: oblique;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+.card-green {
+  opacity: 0.90;
+}
+
+.card-green-1 {position: absolute; 
+  right: 1700px; 
+  /* border: 3px solid #73AD21;  */
+  width: 150px; 
+  height: 100px; 
+  top: 50px;}
