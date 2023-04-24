@@ -41,10 +41,22 @@ To access the website, user is to go through the 'Main-page' folder in the repos
 4. Using python, a flask app named app.py was created to develop a flask API.
 5. Javascript named hardik.js is importing data from api and then ploting intractive visualization on web.
 a. Government Goverment spending share in the EV market.
-
-
 ![Goverment spending](https://user-images.githubusercontent.com/120690578/233892121-222997bc-4e6a-4075-8653-9b7e0c0e57eb.png)
-
+* The line plot visuals chart the Government Share in Billion USD is decreasing steadly from 2015 to 2023.The red line represents Government Share.
+* The graph shows government needed to promote ev market in early days due to less successs and popularity of electric vehicles among common people.
+* The share is getting down, which shows less push is need to promote the ev market.
+* The graph throw light on more private companies are increasing their ev production share in the market.
+b. 
+![Consumer spending ](https://user-images.githubusercontent.com/120690578/233892996-a5302d8c-49eb-4987-a462-18143b7b9c64.png)
+* The line plot visuals chart the Consumer Share in Billion USD is increasing steadly from 2015 to 2023.The green line represents Consumer Share.
+* The graph shows  Consumer (common people ) is taking more interest in electric vehicles.
+* More spending shows the morea delevoped technologies which are reliable for different activites like long distant travelling, heavy duty truck etc 
+* The share is getting up the future growth is exponantial and promising.
+c. 
+![barrels consumption in USA](https://user-images.githubusercontent.com/120690578/233893794-d7f7e550-3be1-4030-8b10-bfc887ef52fa.png)
+* The bar graph shows the barrel consumption per day in USA.
+* The growth in EV market and fuel prices affecting oil consumption in us negatively.
+* The less consumption helping the environment and dependency of a country on fossil fuel. 
 
 
 #### Denny's
