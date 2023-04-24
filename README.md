@@ -40,7 +40,7 @@ To access the website, user is to go through the 'Main-page' folder in the repos
 3. The merged Data was then stored in pgAdmin SQL Database by establishment of a connection between python and pgAdmin.
 4. Using python, a flask app named app.py was created to develop a flask API.
 5. HTML file was created to form DOM for web development.
-6. Javascript named hardik.js is importing data from api and then ploting intractive visualization on web.
+6. Javascript named hardik.js is importing data from api and then plotting interactive visualization on web.
 
 
 a. Government Goverment spending share in the EV market.
@@ -55,8 +55,8 @@ b.
 * The line plot visuals chart the Consumer Share in Billion USD is increasing steadly from 2015 to 2023.The green line represents Consumer Share.
 * The graph shows  Consumer (common people ) is taking more interest in electric vehicles.
 * More spending shows the morea delevoped technologies which are reliable for different activites like long distant travelling, heavy duty truck etc 
-* The share is getting up the future growth is exponantial and promising. 
-*
+* The share is getting up the future growth is exponential and promising. 
+
 c. 
 ![barrels consumption in USA](https://user-images.githubusercontent.com/120690578/233893794-d7f7e550-3be1-4030-8b10-bfc887ef52fa.png)
 * The bar graph shows the barrel consumption per day in USA.
@@ -68,3 +68,7 @@ c.
 A decision to start proceeding towards to EV market requires users to understand how easy charging time are going to be. Where we have seen large charging times in EV Comparison, we understand that users need to spend the quality time productively instead of sitting in their car waiting for charge to complete.
 We've design a map that, therefore, shows the locations of each charging station, along with the location of each Denny's Restaurant. Understanding that this prototype website is targeting Americans, and is showcasing only a validation of a working code, we have chosen Denny's as a sample restaurant.
 The data, which is available as the SQL database, needs a flask ORM to have access. For ease of data access, the data has been converted to an array in a JS file.
+
+### References
+1. https://www.iea.org/data-and-statistics/charts/consumer-and-government-spending-on-electric-cars-2015-2020
+2. https://www.kaggle.com/datasets/saketpradhan/electric-and-alternative-fuel-charging-stations?select=Charging+Station+Distribution+US+and+Canada.png
