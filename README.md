@@ -72,3 +72,14 @@ The data, which is available as the SQL database, needs a flask ORM to have acce
 ### References
 1. https://www.iea.org/data-and-statistics/charts/consumer-and-government-spending-on-electric-cars-2015-2020
 2. https://www.kaggle.com/datasets/saketpradhan/electric-and-alternative-fuel-charging-stations?select=Charging+Station+Distribution+US+and+Canada.png
+
+
+###Appendices
+A timeline of the project, including the tasks carried out and their time stamps, is shown below.
+April 11, 2023: brainstorm ideas and set up Github collaboration
+April 12, 2023: Data Gathering 
+April 13, 2023: Decide on datasets and objectives for the study
+April 18, 2023: Rough draft of Code
+April 20, 2023: finazing with code 
+April 22, 2023: Combining the codes and creating the powerpoint 
+April 24 , 2023:   Presentation
